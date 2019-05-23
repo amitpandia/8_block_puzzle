@@ -3,6 +3,10 @@
 #include<GL/freeglut.h>
 #include<iostream>
 
+//Dependency: sudo apt-get install freeglut3-dev 
+//Compile: g++ src.cpp -o game -lglut -lGL -lGLU
+//Run: ./game  
+
 using namespace std;
 char ch='\n';		// user's choice
 int win=0;			// win status
@@ -16,7 +20,7 @@ int ibspx=-1100;	// inner block starting position X-coordinate
 int ibspy=1100;		// inner block starting position Y-coordinate
 float lw=5.0;		// line width
 
-float bgr=1.0;		// Background RED
+float bgr=0.3;		// Background RED
 float bgg=0.6;		// Background GREEN
 float bgb=0.7;		// Background BLUE
 
